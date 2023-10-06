@@ -7,8 +7,8 @@ const About = () => {
   return (
     <div className="pt-20">
       <Container>
-        <div className="flex justify-between items-center">
-          <p className="w-2/4 text-2xl leading-relaxed">
+        <div className="flex justify-between pr-3 items-center">
+          <p className="w-2/4 text-xs pl-3  md:text-2xl leading-relaxed">
             Hech qanday navbatlarsiz, charchoq va asabiyliklarsiz, o'z
             uyingizdan turib bizning ilova orqali malakali shifokorlardan tibbiy
             ko'rikdan o'tingHech qanday navbatlarsiz, charchoq va

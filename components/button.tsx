@@ -22,7 +22,8 @@ const Button = forwardRef<HTMLButtonElement, ButtonProps>(
         className={`
     w-auto
     rounded-xl
-    px-5
+    
+    px-3
     py-2
     disabled:cursor-not-allowed
     disabled:opacity-50
@@ -30,6 +31,7 @@ const Button = forwardRef<HTMLButtonElement, ButtonProps>(
     font-semibold
     hover:opacity-75
     transition
+    
     ${action ? "border-2": ""}
     ${className}
     `}

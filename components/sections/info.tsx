@@ -18,7 +18,7 @@ export default function Info() {
   return (
     <div className="w-full relative mt-20 h-auto">
       <Container>
-        <div className="w-full ">
+        <div className="w-full p-3">
           <Swiper
             slidesPerView={3}
             spaceBetween={30}

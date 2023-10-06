@@ -5,7 +5,7 @@ import CategoryItems from "../category-items";
 
 const Categories = () => {
   return (
-    <div className="mt-12">
+    <div className="mt-12 p-3">
       <Container>
         <div className="grid grid-cols-2 gap-5 items-center">
           {categories.map((category) => (
